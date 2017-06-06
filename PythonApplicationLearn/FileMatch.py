@@ -1,5 +1,6 @@
-import os
+﻿import os
 
+print('input key: ')
 fileName = input()
 def findFiles(p):
    # print('search: ' + p)
@@ -14,6 +15,5 @@ def findFiles(p):
 while fileName != 'end':
     findFiles(os.path.abspath('.'))
     print('\n')
-    print('\n')
     fileName = input()
-    print('\n')
+    print('input end to exit...\n')

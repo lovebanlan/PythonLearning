@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08f79bd6-6e35-4d8c-bee2-57d15781d73b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RenameFiles.py</StartupFile>
+    <StartupFile>processLearning.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -35,6 +35,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="OSLearn.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pickleLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="processLearning.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonApplicationLearn.py" />
