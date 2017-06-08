@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>08f79bd6-6e35-4d8c-bee2-57d15781d73b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>processLearning.py</StartupFile>
+    <StartupFile>mySqlLearning\sqlalchemyLearning.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,43 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="batteriesIncluded\base64Learning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\collectionLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\contextlibLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\datetimeLearn.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\hashlibLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\HTMLParserLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\itertoolsLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\urllibLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="batteriesIncluded\xmlLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FileMatch.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="GUITest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mySqlLearning\sqlalchemyLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mySqlLearning\testMysql.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ORMFramework.py">
@@ -47,6 +80,20 @@
     <Compile Include="RenameFiles.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="socketLearning\SimpleSocClient.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="socketLearning\SimpleSocServer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="threadLearning.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="batteriesIncluded\" />
+    <Folder Include="mySqlLearning\" />
+    <Folder Include="socketLearning\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
